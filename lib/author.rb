@@ -18,8 +18,8 @@ def add_post_by_title(title)
   post.author = self 
 end
 
-def self.song_count 
-  Song.all.count 
+def self.post_count 
+  Post.all.count 
 end
 
 
