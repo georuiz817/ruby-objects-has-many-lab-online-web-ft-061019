@@ -4,6 +4,6 @@ class Post
   def intitialize(name)
     def initialize(name)
   @name = name 
-  @artist = artist 
+  @author = author 
   @@all << self 
 end
