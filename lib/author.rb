@@ -1,8 +1,8 @@
 class Author 
 attr_accessor :title, :posts
 
-def initialize(name)
-  @name = name 
+def initialize(title)
+  @name = title 
   @posts = [] 
 end
 
