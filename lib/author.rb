@@ -22,9 +22,7 @@ def self.post_count
   Post.all.count 
 end
 
-def author_name 
-  author.name 
-end
+
 
 
 end
