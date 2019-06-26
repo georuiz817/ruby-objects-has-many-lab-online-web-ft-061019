@@ -7,4 +7,5 @@ class Post
   @author = author 
   @@all << self 
 end
+
 end
